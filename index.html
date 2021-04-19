@@ -1,0 +1,658 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+author_profile: true
+classes: wide
+---<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Jesse Parent - Research Homepage</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="732a0e1a-b9b2-43fc-8cc4-07b992888710" class="page sans"><header><img class="page-cover-image" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/1500x500.png" style="object-position:center 23.9%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/header-classic-1.jpg"/></div><h1 class="page-title"><mark class="highlight-teal">Jesse Parent - Research Homepage</mark></h1></header><div class="page-body"><h3 id="1376fe92-c239-4505-ab14-0e05b9479c56" class="block-color-teal"><strong>Jesse Parent, B.S. Assistant Scientist and Lab Manager at </strong>Orthogonal Research &amp; Education Lab</h3><p id="f3b7c1b0-ad2c-4304-bfa9-d230355c61d5" class="">Jesse Parent received his B.S. from the College of Engineering &amp; Applied Sciences &amp; CEHC at the University at Albany, SUNY. Jesse&#x27;s current research involves computational and developmental  models of cognition. He is preparing for graduate study exploring natural and artificial intelligence; particularly cognition, learning, information processing, and the mechanisms which support decision making and comprehension. Occasionally, Jesse writes on the ethics surrounding technology and related impacts on society. He is involved in science communication, outreach and mentorship and manages the Cognition Study Journal Club. Jesse leads the newly-formed <a href="https://cognitionfutures.github.io/">Cognition Futures</a> team at <a href="http://orthogonal-research.weebly.com/">Orthogonal Research &amp; Education Lab (OREL)</a>, where he is also Lab Manager and an Assistant Scientist. </p><p id="c07b2275-03ed-41d6-a989-aefca55db8db" class="">
+</p><p id="0aba12b3-d425-4c26-ad26-d3665d2da17b" class=""><strong>Links: </strong><strong><a href="https://github.com/jesparent">GitHub</a></strong><strong> | </strong><strong><a href="https://scholar.google.com/citations?hl=en&amp;user=tSvD5eAAAAAJ">Google Scholar</a></strong><strong> | </strong><strong><a href="https://www.researchgate.net/profile/Jesse_Parent2">Research Gate</a></strong><strong> | </strong><strong><a href="https://orcid.org/0000-0002-6979-1520">ORCID </a></strong><strong>| </strong><strong><a href="https://twitter.com/jesparent">Twitter</a></strong><strong> | Email: jesse [@] alumni.albany.edu</strong></p><p id="66fec938-9b50-4da4-ac93-debb1a3367e2" class="">
+</p><h3 id="5b8e862a-5e86-4965-aa53-49900aa91807" class="block-color-teal_background"><mark class="highlight-teal_background">News</mark></h3><ul id="b7098057-a237-4dc0-8223-9e1609a9f6e2" class="bulleted-list"><li>04-10 Research Presentation: Cognition Futures &amp; FrontierMap at Princeton Envision</li></ul><ul id="30b26b44-8aea-4d58-ae4b-d11fb5c870bc" class="bulleted-list"><li><a href="https://twitter.com/JesParent/status/1379489919228379136">04-09</a> Research Presentation:  AI Ethics project with OREL at ACM&#x27;s New York Celebration of Women in Computing 2021; Male Allies breakout session (Moderator), Thinking About Gradschool (Panelist)</li></ul><ul id="1ef5d1f1-3b5c-4795-88be-d41c41a4b09a" class="bulleted-list"><li><a href="https://www.researchgate.net/publication/350357270_Frontier_Map_and_Cognition_Futures_Embodied_Intelligence_A_Survey_of_Computational_Models_of_Cognition">03-24</a> Presentation: flash talk at International Workshop on Embodied Intelligence; interviewed for IEEE&#x27;s Embodied Intelligence podcast. </li></ul><ul id="5058a932-d411-47f0-97ca-ce6a7236ce56" class="bulleted-list"><li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0303264721000629">03-21</a> &quot;Periodicity in the Embryo&quot; accepted for publication in Biosystems 204 in June</li></ul><ul id="1a58a009-5775-4ddf-a039-303bbae7b296" class="bulleted-list"><li><a href="https://medium.com/orel-group/observer-dependent-models-a-talk-at-the-philosophers-web-cafe-4c503cd47778">12-11 </a>Moderating &quot;Observer-Dependent Models&quot; (B. Alicea) talk at Philosopher&#x27;s Web Café</li></ul><ul id="43514c73-a40c-48a4-aefc-973e2ecc9e2f" class="bulleted-list"><li>12-06 Attending &amp; Volunteering at NeurIPS 2020; attended MAIN2020.</li></ul><ul id="05c95410-f3a7-493e-bced-a091b5fbdd16" class="bulleted-list"><li><a href="https://www.albany.edu/undergrad-research/assets/October%202020%20Newsletter.pdf">10-29</a> Speaker at Alumni Panel for Undergraduate Research at UAlbany and featured in CURCE Newsletter</li></ul><ul id="55715f52-6beb-49fb-ac20-a5e810bf2288" class="bulleted-list"><li>10-01 Greenlight to lead &quot;Cognition Futures&quot; research team within OREL</li></ul><ul id="431ecced-25a4-4038-97ab-8553f26b2a16" class="bulleted-list"><li><a href="https://cbmm.mit.edu/summer-school/2020/attendees">08-11</a> Attended MIT&#x27;s Center for Brains, Minds, and Machines Summer Course 2020</li></ul><ul id="5a083519-4a14-4e89-9db9-ccde12df7852" class="bulleted-list"><li><a href="https://github.com/jesparent/Proposal-Materials/tree/master/Neuromatch">07-31</a> Completed Neuromatch Academy 2020 - Summer School (Intensive Track)</li></ul><ul id="05eba620-6313-4bdb-a342-f401cc19ce12" class="bulleted-list"><li><a href="https://orthogonal-research.weebly.com/">07-15</a> Starting as Lab Manager for Orthogonal Research &amp; Education Lab!</li></ul><hr id="6766c3fb-d2b2-4bb1-b9b2-47c41e2136f7"/><figure id="e22b0988-623e-440c-897c-d4d255b09515" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled.png"><img style="width:1px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled.png"/></a></figure><h1 id="033953b3-8591-4acc-bba7-d48d5d80e44b" class="block-color-orange_background">Projects</h1><h2 id="6fb2e721-66b3-450f-bbb4-01dfbabbffdd" class=""><mark class="highlight-blue">Research Projects</mark></h2><p id="274f60b2-8b65-488d-abc2-a67809a9f051" class="">
+</p><div id="31821587-362e-46f2-88bd-ab11e9daff03" class="column-list"><div id="09f7cd49-02c3-4e8e-83b8-68f554829777" style="width:31.25%" class="column"><figure id="9f1800fa-9419-4936-8ab7-e93c79dd2921" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%201.png"><img style="width:432px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%201.png"/></a></figure><p id="79a6a9bb-c3a1-4586-9055-6bcf56ae8217" class="">
+</p></div><div id="53f7dfa7-34cc-42e1-a902-6a68293fb288" style="width:68.75%" class="column"><h3 id="2f372522-9d4e-40d0-be91-2de6be2e58b9" class=""><mark class="highlight-blue">A Survey of Computational Models of Cognition</mark></h3><p id="31369988-cbd1-4b05-b4b6-e4209ba6daa2" class=""><strong>Jesse Parent
+</strong>[In Preparation]</p><p id="a0b1189b-6a0a-4cd6-9d0b-e1807cfcbd9e" class="">A tour of the existing landscape of modeling cognition, with a novel taxonomy and programming appendices &amp; jupyter notebooks. This paper identifies existing themes and trajectories in computational models for cognition and suggests areas that are ripe for future researchers to explore. Associated educational materials are also in development. </p><p id="b8cb0034-f227-43da-adf3-f5318ae9eee4" class="">
+</p></div></div><div id="a48fd0fb-93eb-4be7-b9a4-e8ab7402a313" class="column-list"><div id="8050560e-4e23-4857-8a79-574ee380f018" style="width:31.25%" class="column"><figure id="f81038de-0e86-42b9-9e34-3c166d2e7434" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%202.png"><img style="width:432px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%202.png"/></a></figure></div><div id="0113974e-e7f5-4415-9396-51b7bc78619a" style="width:68.75%" class="column"><h3 id="5a7a6895-2fb8-4bd6-8944-ed771255bc44" class=""><mark class="highlight-blue">Complexity of Feedback Loops </mark></h3><p id="3c134088-4139-4b20-9659-713434446b58" class=""><strong>Jesse Parent,</strong> Akshara Gopi, Bhavik Bansal, Rishabh Chakrabarty, Prakash Gupta, Bradly Alicea 
+Neuromatch Academy 2020 + OREL Active Project
+<a href="https://figshare.com/articles/presentation/NMA_Project_Complexity_of_Feedback/12881822">NMA Presentation</a> | GitHub</p><p id="39675eea-2e55-465a-9185-b5e27b9b2e46" class="">
+</p><p id="ad6154f3-6944-4bbb-9b8f-177c893b24c9" class="">Originally a NMA Group Project, now ongoing at OREL: a comparison of models of feedback at different levels of complexity, using the IBL data set. &quot;What is the relationship between feedback and performance given representational models at different levels of complexity? That is, starting from a zero representational model, what is the tradeoff agents make in terms of performance for a certain level of feedback complexity? Some complex behaviors may require representation within an agent&#x27;s mind. Can we compare models of different amounts of representation?&quot;</p></div></div><div id="add40b17-c05b-492c-8afa-f37e5b0e7a38" class="column-list"><div id="7ce2ef61-e96d-4b37-81bf-e88f2625c899" style="width:31.25%" class="column"><figure id="fe2b89d3-30ba-4d57-865e-ab50f7dcf2af" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%203.png"><img style="width:432px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%203.png"/></a></figure></div><div id="27ab3e9e-aa1e-4d86-a960-9fc7cdd11a66" style="width:68.75%" class="column"><h3 id="a8d39b7b-f151-4068-ba1b-1a98a87f2e0c" class=""><mark class="highlight-blue">Developmental Embodied Agents as Meta-brain Models</mark></h3><p id="ae2f405d-858b-4bfb-9cff-7a73fdc6b7e9" class="">Bradly Alicea, Stefan Dvoretskii, Sam Felder, Ziyi Gong, Ankit Gupta, and <strong>Jesse Parent
+</strong>ALIFE 2020
+<a href="https://figshare.com/articles/presentation/Developmental_Embodied_Agents_as_Meta-brain_Models/12638621">Presentation</a> | <a href="https://github.com/Orthogonal-Research-Lab/Meta-brain-Models">GitHub</a> |  <a href="https://www.irit.fr/devonn/">DevoNN Workshop</a></p><p id="b62df35f-83e0-4e04-a1c3-87a4c71aaa0c" class="">We present a framework for meta-brain models, or hybrid models that capture multiple aspects of developmental neuro- biology and behavior. A developmentally-inspired embodied learning agent architecture is combined with a contextually- explicit representational layer to form a complex artificial nervous system. The architectural description is summarized in terms of morphological differentiation, context-handling, and generalized architectural features. In conclusion, we propose potential functional milestones that help further explicate the usefulness of our approach.</p><p id="233ed245-d8cb-44a4-8f11-357719776cca" class="">
+</p></div></div><p id="f638f50a-d39b-4b5c-973e-593e4fe48d81" class="">
+</p><div id="f7200adf-7dc4-42b4-b162-152da156f69c" class="column-list"><div id="7f7e885d-af02-4313-932d-8f7987cb9810" style="width:31.25%" class="column"><figure id="5fa0fa47-b09e-4c19-ae50-385479066fc6" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%204.png"><img style="width:432px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%204.png"/></a></figure></div><div id="c5aad62c-df75-460d-8092-9a892fc75e64" style="width:68.75%" class="column"><h3 id="256e8337-e5e6-45dd-b324-b3ad0f1a1a49" class=""><mark class="highlight-blue">FrontierMap: A Trans-Disciplinary Learning Database</mark></h3><p id="0e7772b6-b6ed-42a7-883c-d77aa1e15b23" class=""><strong>Jesse Parent</strong></p><p id="68e12d2c-0f98-4ef1-9c15-b88198033324" class="">The Lay of the Land in Computation &amp; Cognition: developing a set of visual maps, literature review, educational notes, and related material to serve as a set of primers to aid in researchers defining their research agendas. </p><p id="589c7b6c-b55e-4ad2-be49-34d4a7d0827c" class="">Associated work: &quot;<em>Epistemological Directories (EDs) for Research Development and Education</em>&quot;
+Bradly Alicea and <strong>Jesse Parent | </strong>csv,conf,v5 (March 2020)
+<a href="https://figshare.com/articles/presentation/Epistomological_Directories_EDs_for_Research_Development_and_Education/12156984">Presentation</a> </p><p id="f5baddb7-f4b7-483b-83c2-80535e0a7719" class="">
+</p></div></div><p id="2676a9d8-29ed-4fd1-bdb8-c362a5a9edb1" class="">
+</p><div id="d3485a45-8f2a-462e-92d4-221abdbeabdf" class="column-list"><div id="c4f06165-12ad-4660-b7fe-5a03904e5e23" style="width:31.25%" class="column"><figure id="8360b8c8-5072-400c-bc4d-309f900adcf9" class="image"><a href="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%205.png"><img style="width:432px" src="Jesse%20Parent%20-%20Research%20Homepage%20e22b0988623e440c897cd4d255b09515/Untitled%205.png"/></a></figure></div><div id="3d3d274c-a2d1-4657-ad3f-406729d2e418" style="width:68.75%" class="column"><h3 id="d11c99d8-4069-45ad-849e-c63469d9e187" class=""><mark class="highlight-blue">Braitenberg Vehicles as Developmental Neurosimulation</mark></h3><p id="68037de9-fd51-4dce-b81a-7aae67c60ec8" class="">Stefan Dvoretskii, Ziyi Gong, Ankit Gupta, <strong>Jesse Parent, </strong>Bradly Alicea
+<a href="https://arxiv.org/abs/2003.07689">Preprint</a> | GitHub
+</p><p id="e68ec926-bbd0-46fb-a90c-a891ae4a1e5f" class="">Our purpose is to model the development of an artificial organism that exhibits complex behaviors. We will introduce our approach, which is to use Braitenberg Vehicles (BVs) to model the development of an artificial nervous system. The resulting developmental BVs will generate behaviors that range from stimulus responses to group behavior that resembles collective motion. Next, we will situate this work in the domain of artificial brain networks. Then we will focus on broader themes such as embodied cognition, feedback, and emergence. Our perspective will then be exemplified by three software instantiations that demonstrate how a BV-genetic algorithm hybrid model, multisensory Hebbian learning model, and multi-agent approaches can be used to approach BV development.</p></div></div><p id="809b685b-92ae-4aea-a3db-3e58b1b8c888" class="">
+</p><h2 id="90904dd9-df60-4864-ab2a-8144cb30f96f" class="block-color-gray_background"><mark class="highlight-purple"><strong>Education Projects &amp; Working Groups</strong></mark></h2><p id="29383b2d-6a0d-4d8d-9405-3ffb5fccdf8c" class="">Neuromatch Academy Slow Pod (Computational Neuroscience)</p><p id="3707de65-1b34-4f46-be29-b29bfcef236a" class="">Cognition Study Group</p><p id="53ccc8b1-ab6d-44b9-aa9b-7fe1aa981ac5" class="">Full Stack Scientists </p><p id="a50277b6-b7c9-4577-b4f1-52254c30642a" class="">
+</p><div id="1db7e849-edd2-4b10-b12a-599f9b49b5d5" class="column-list"><div id="e7da211f-6270-4c1b-a456-a89e8830d0e7" style="width:50%" class="column"><h3 id="f3ac011c-5fda-4f5f-9ca8-b94a160b9d6a" class="block-color-blue_background"><strong>Site Map</strong></h3><figure id="aebb707c-36fe-441c-bba7-56983963e38a" class="link-to-page"><a href="https://www.notion.so/Research-Publications-aebb707c36fe441cbba756983963e38a">Research &amp; Publications</a></figure><figure id="515a8819-7e0e-4f5e-be1e-7af01bb33223" class="link-to-page"><a href="https://www.notion.so/Projects-Working-Groups-515a88197e0e4f5ebe1e7af01bb33223">Projects &amp; Working Groups</a></figure><figure id="fd9c0f94-74f0-4bbd-bd3a-9dddd220969f" class="link-to-page"><a href="https://www.notion.so/Resume-fd9c0f9474f04bbdbd3a9dddd220969f">Resume</a></figure><figure id="5c11e7ca-d188-44d6-b302-1045c14d35a1" class="link-to-page"><a href="https://www.notion.so/Events-Speaking-5c11e7cad18844d6b3021045c14d35a1">Events &amp; Speaking</a></figure><figure id="d2291304-40d4-43fe-b6af-a0122bb110e8" class="link-to-page"><a href="https://www.notion.so/Resources-d229130440d443feb6afa0122bb110e8">Resources</a></figure></div><div id="3c372d50-604f-4562-8fab-098b1def80e0" style="width:50%" class="column"><p id="d3193487-79f1-43ec-86fb-5b786c898c81" class="">
+</p></div></div><p id="9e96bf23-3626-4c6f-a3e2-dc742016c7dc" class="">
+</p><p id="e39231f7-be49-43eb-94c5-9856a480a5c9" class=""><em>For Previous Projects: See </em><a href="https://www.notion.so/Projects-Working-Groups-515a88197e0e4f5ebe1e7af01bb33223">Projects &amp; Working Groups</a> </p><p id="f706c646-d666-4729-b7f6-6f4c3e4b456a" class="">
+</p></div></article></body></html>
