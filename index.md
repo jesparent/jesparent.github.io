@@ -1,11 +1,8 @@
 ---
-layout: home
+layout: single
 author_profile: true
 classes: wide
-.page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-3;
-}
+ 
 ---
 
 **Jesse Parent, B.S.**
