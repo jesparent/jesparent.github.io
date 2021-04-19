@@ -8,11 +8,7 @@ classes: wide
 **Jesse Parent, B.S.**
 Assistant Scientist and Lab Manager at Orthogonal Research & Education Lab
 
-Jesse Parent received his B.S. from the College of Engineering & Applied Sciences & CEHC at the University at Albany, SUNY. Jesse's current research involves computational and developmental models of cognition. He is preparing for graduate study exploring natural and artificial intelligence; particularly cognition, learning, information processing, and the mechanisms which support decision making and comprehension. Occasionally, Jesse writes on the ethics surrounding technology and related impacts on society. He is involved in science communication, outreach and mentorship and manages the Cognition Study Journal Club. Jesse leads the newly-formed [Cognition Futures](https://cognitionfutures.github.io/) team at [Orthogonal Research & Education Lab (OREL)](http://orthogonal-research.weebly.com/), where he is also Lab Manager and an Assistant Scientist.
-
- 
-### News
-
+#### News
 - 04-10 Research Presentation: Cognition Futures & FrontierMap at Princeton Envision
 - [04-09](https://twitter.com/JesParent/status/1379489919228379136) Research Presentation:  AI Ethics project with OREL at ACM's New York Celebration of Women in Computing 2021; Male Allies breakout session (Moderator), Thinking About Gradschool (Panelist)
 - [03-24](https://www.researchgate.net/publication/350357270_Frontier_Map_and_Cognition_Futures_Embodied_Intelligence_A_Survey_of_Computational_Models_of_Cognition) Presentation: flash talk at International Workshop on Embodied Intelligence; interviewed for IEEE's Embodied Intelligence podcast.
