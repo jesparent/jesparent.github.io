@@ -16,9 +16,7 @@
 title: jesse parent
 email: jesse@alumni.albany.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Jesse Parent, B.S. Research Homepage - computation, cognition, AI Ethics, Human-Computer Interaction.
 twitter_username: jesparent
 github_username: jesparent
 minimal_mistakes_skin: contrast
@@ -58,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "jesse parent"
+  name   : "Jesse Parent"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "research homepage"
   links:
@@ -71,9 +69,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jesparent"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jesparent_ai"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/jesparent_ai"
 
 footer:
 #  links:
