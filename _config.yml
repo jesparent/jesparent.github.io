@@ -73,6 +73,21 @@ author:
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/jesparent_ai"
 
+
+#ADDING CUSTOM SIDEBAR 
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+
+
+
+
+
 footer:
 #  links:
 #    - label: "Twitter"
