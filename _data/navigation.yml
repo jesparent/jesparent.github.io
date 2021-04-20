@@ -12,6 +12,8 @@ main:
 #  - title: "Tags"
 #    url: /tags/
 
+
+#SIDEBAR CUSTOM start 
 docs:
   - title: Getting Started
     children:
