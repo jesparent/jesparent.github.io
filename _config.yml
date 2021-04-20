@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jesse Parent, B.S. Research Homepage | computation, cognition, AI ethics, human-computer interaction.
 twitter_username: jesparent
 github_username: jesparent
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default #does this affect sidebar? TBD
 search: true
 
 # Build settings
