@@ -1,3 +1,7 @@
+---
+default
+---
+
 # Speaking
 - ACM New York Celebration of Women in Computing 2021: "Thinking About Grad School" (Panelist)
 - ACM New York Celebration of Women in Computing 2021: "Male Allies - Birds of a Feather Breakout Session" (Moderator)
