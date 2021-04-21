@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jesse Parent, B.S. - Research Homepage
+title: Jesse Parent - Research Homepage
 email: jesse@alumni.albany.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Jesse Parent, B.S. Research Homepage | computation, cognition, AI ethics, human-computer interaction.
+  Jesse Parent - Research Homepage | computation, cognition, AI ethics, human-computer interaction.
 twitter_username: jesparent
 github_username: jesparent
 minimal_mistakes_skin: default #does this affect sidebar? TBD
