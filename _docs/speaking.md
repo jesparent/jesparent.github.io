@@ -4,7 +4,7 @@ author_profile: true
 sidebar:
   nav: "docs"
 permalink: /speaking/ 
-title: "About"
+title: "Speaking and Consulting"
 
 ---
 
