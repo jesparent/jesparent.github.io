@@ -1,4 +1,12 @@
+---
+layout: single
+author_profile: true
+sidebar:
+  nav: "docs"
+permalink: /speaking/ 
+title: "About"
 
+---
 
 # Speaking
 - ACM New York Celebration of Women in Computing 2021: "Thinking About Grad School" (Panelist)
