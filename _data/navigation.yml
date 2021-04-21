@@ -24,14 +24,14 @@ docs:
       - title: "Cognition Futures"
         url: https://cognitionfutures.github.io
       - title: "Publications"
-        url: /_docs/publications/
+        url: /_docs/speaking/
       #- title: "Medium.com"
        # url: https://medium.com/@JesseParent
         
   - title: Professional
     children:
       - title: "Speaking & Consulting"
-        url: /_docs/speaking/
+        url: /speaking/
  
 
 
