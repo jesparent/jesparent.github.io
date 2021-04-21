@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 sidebar:
   nav: "docs"
-permalink: /docs/speaking/ 
+permalink: /docs/cv/ 
 title: "Curriculum Vitae"
 
 ---
