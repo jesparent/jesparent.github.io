@@ -1,11 +1,11 @@
 ---
-permalink: /about/ 
-title: "About"
-layout: wide
+layout: single
 author_profile: true
 sidebar:
   nav: "docs"
-  
+permalink: /about/ 
+title: "About"
+
 ---
 ## Jesse Parent, B.S.
 Assistant Scientist and Lab Manager at Orthogonal Research & Education Lab
