@@ -74,28 +74,6 @@ author:
 #      url: "https://instagram.com/jesparent_ai"
 
 
-#ADDING CUSTOM SIDEBAR 
-defaults:
-  # _docs
-#  - scope:
-#      path: ""
-#      type: docs
-#    values:
-#      sidebar:
-#        nav: "docs"
-
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
 
 
 
@@ -123,6 +101,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "docs"      
   # _pages
   - scope:
       path: "_pages"
@@ -130,6 +110,24 @@ defaults:
     values:
       layout: wide
       author_profile: true
+      sidebar:
+        nav: "docs"      
+  # _docs   #ADDING CUSTOM SIDEBAR 
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+
+      
+      
 
 category_archive:
   type: liquid
