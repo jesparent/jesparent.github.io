@@ -18,7 +18,7 @@ docs:
   - title: Research
     children:
       - title: "C.V."
-        url: /_docs/speaking/
+        url: /docs/cv/
       - title: "Orthogonal Lab"
         url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
