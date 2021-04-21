@@ -13,6 +13,7 @@ title: "Speaking and Consulting"
 - ACM New York Celebration of Women in Computing 2021
   - "Thinking About Grad School" (Panelist)
   - "Male Allies - Birds of a Feather Breakout Session" (Moderator)
+- Philosopher's Web Cafe, 2020: Observer-Dependent Models (Moderator)
 - University at Albany, Prospective Student Open House (Informatics Representative, 2017-2019)
 #### Podcasts
 - Soft Robotics Podcast: International Workshop on Embodied Intelligence, Offline Interviews
