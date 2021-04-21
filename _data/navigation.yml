@@ -15,25 +15,26 @@ main:
 
 #SIDEBAR CUSTOM start 
 docs:
-  - title: Topics
+  - title: Research
     children:
+      - title: "Orthogonal Lab"
+        url: https://orthogonal-research.weebly.com/
+      - title: "Cognition Futures"
+        url: https://cognitionfutures.github.io
       - title: "Publications"
-        url: /docs/speaking/
+        url: /docs/publications/
+      #- title: "Medium.com"
+       # url: https://medium.com/@JesseParent
+        
+  - title: Professional
+    children:
       - title: "Speaking & Consulting"
         url: /docs/speaking/
  
 
-  - title: Labs & Projects
-    children:
-      - title: "Orthogonal Research"
-        url: https://orthogonal-research.weebly.com/
-      - title: "Cognition Futures"
-        url: https://cognitionfutures.github.io
-      #- title: "Medium.com"
-       # url: https://medium.com/@JesseParent
-        
 
-  - title: Weblinks
+
+  - title: Links
     children:
       - title: "Google Scholar"
         url: https://scholar.google.com/citations?hl=en&user=tSvD5eAAAAAJ
