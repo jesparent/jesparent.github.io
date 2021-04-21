@@ -17,19 +17,27 @@ main:
 docs:
   - title: Topics
     children:
+      - title: "Publications"
+        url: /docs/speaking/
       - title: "Speaking & Consulting"
         url: /docs/speaking/
  
 
-  - title: On the Web
+  - title: Labs & Projects
     children:
       - title: "Orthogonal Research"
-        url: /docs/configuration/
+        url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
-        url: /docs/navigation/
+        url: https:/cognitionfutures.github.io
+      #- title: "Medium.com"
+       # url: https://medium.com/@JesseParent
+        
+
+  - title: Weblinks
+    children:
+      - title: "Google Scholar"
+        url: https://scholar.google.com/citations?hl=en&user=tSvD5eAAAAAJ
+      - title: "Resaerch Gate"
+        url: https://www.researchgate.net/profile/Jesse_Parent2
       - title: "Medium.com"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+        url: https://medium.com/@JesseParent
