@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 sidebar:
   nav: "docs"
-permalink: /speaking/ 
+permalink: /docs/speaking/ 
 title: "Speaking and Consulting"
 
 ---
