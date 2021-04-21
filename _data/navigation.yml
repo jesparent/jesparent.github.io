@@ -17,19 +17,21 @@ main:
 docs:
   - title: Research
     children:
+      - title: "C.V."
+        url: /_docs/publications/
       - title: "Orthogonal Lab"
         url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
         url: https://cognitionfutures.github.io
       - title: "Publications"
-        url: /docs/publications/
+        url: /_docs/publications/
       #- title: "Medium.com"
        # url: https://medium.com/@JesseParent
         
   - title: Professional
     children:
       - title: "Speaking & Consulting"
-        url: /docs/speaking/
+        url: /_docs/speaking/
  
 
 
@@ -41,4 +43,4 @@ docs:
       - title: "Research Gate"
         url: https://www.researchgate.net/profile/Jesse_Parent2
       - title: "Medium.com"
-        url: https://medium.com/@JesseParent
+        url: https://jesparent.medium.com/
