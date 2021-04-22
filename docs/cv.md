@@ -24,9 +24,9 @@ PDF File: [April 2021]()
 ### Education
 - University at Albany, SUNY  (2019) - B.S. Informatics, Custom Minor in Cognition Research
   - PI Dr George Berg: Informatics & Computer Science (2018-19)
-  - PI Dr Analisa Scimemi: Neuroscience (2018-19)
-  - PI JD David Turetsky: Cybersecurity (2017-19)
-  - PI Dr Yelin Kim: Electrical & Computer Engineering (2017-2018)
+  - PI Dr Analisa Scimemi: Biology - Neuroscience (2018-19)
+  - PI JD David Turetsky: CEHC - Cybersecurity (2017-19)
+  - PI Dr Yelin Kim: ECE - Affective Computing (2017-2018)
 
 #### Additional Training
 - [MITx Micromasters in Data and Statistics](https://micromasters.mit.edu/ds/) (2021-'22)
