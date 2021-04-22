@@ -20,5 +20,5 @@ Jesse regularly writes and speaks on the process of falling in love with researc
 - University at Albany, Prospective Student Open House (Informatics Representative, 2017-2019)
 
 #### Podcasts
-- Soft Robotics Podcast: International Workshop on Embodied Intelligence, Offline Interviews
+- IEEE Soft Robotics Podcast: International Workshop on Embodied Intelligence, Offline Interviews
 - Neuroethics Today: 2 Minute Neuroethics (Podcast Segment) 
