@@ -12,15 +12,16 @@ Jesse regularly writes and speaks on the process of falling in love with researc
 
 #### Selected Speaking and Press
 - ACM's New York Celebration of Women in Computing (2021)
-  - "Challenges and Opportunities: Integrating Critical Voices in AI Ethics", Speaker
+  - "Challenges and Opportunities: Integrating Critical Voices in AI Ethics", Speaker & Host
   - "Thinking About Grad School", Panelist
   - "Male Allies" Breakout Session, Moderator
 - Philosopher's Web Cafe (2020) 
   - Observer-Dependent Models, Moderator
 - University at Albany, SUNY
-  - Undergraduate Research Alumni Spotlight (2020)
+  - Center for Undergraduate Research: Alumni Research Panel, Panelist (2020)
+  - Center for Undergraduate Research: Newsletter, Alumni Feature (2019)
   - Prospective Student Open House: Informatics Representative (2017-2019)
-  - Undergraduate Research Spotlight (2017)
+  - College of Engineering & Applied Sciences: Bulletin and TV Spot - Undergraduate Research Spotlight (2017)
   - Albany Student Press: Interviewed for Science & Politics (2017)
 
 #### Podcasts
