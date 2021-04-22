@@ -12,19 +12,23 @@ title: "Curriculum Vitae"
 ## Full Curriculum Vitae
 PDF File: [April 2021]()
 
-## Abridged Research Background
-#### Current Positions
-- Orthogonal Research and Education Lab
-  - Lab Manager (2020-)
-  - OREL Groups: Developmental AI, MetaBrains, Reperesentational Brains & Phenotypes
-  - Cognition Futures (Project Lead), Ethics & Society Team (Lead)
-- OpenWorm Foundation
+### Abridged Research Background: Current Positions
+- Orthogonal Research and Education Lab (2019-)
+  - Lab Director Dr Bradly Alicea
+    - OREL Lab Manager (2020-)
+    - OREL Research Groups: Developmental AI, MetaBrains, Reperesentational Brains & Phenotypes
+    - OREL Created Groups: Cognition Futures (Project Lead), Ethics & Society Team (Project Lead)
+- OpenWorm Foundation (2020-)
   - DevoWorm Contributor
 
-#### Education
+### Education
 - University at Albany, SUNY  (2019) - B.S. Informatics
+  - PI Dr George Berg: Informatics & Computer Science (2018-19)
+  - PI Dr Analisa Scimemi: Neuroscience (2018-19)
+  - PI JD David Turetsky: Cybersecurity (2017-19)
+  - PI Dr Yelin Kim: Electrical & Computer Engineering (2017-2018)
 
-##### Additional Training
+#### Additional Training
 - [MITx Micromasters in Data and Statistics](https://micromasters.mit.edu/ds/) (2021-'22)
 - [Google Certificate in Data Analytics](https://grow.google/dataanalytics/#?modal_active=none) (2021)
 - [MIT Center for Brains, Minds and Machines - Summer Course](https://cbmm.mit.edu/summer-school/2020/attendees)  (2020)
