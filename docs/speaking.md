@@ -14,6 +14,8 @@ Jesse regularly writes and speaks on the process of falling in love with researc
 - ACM New York Celebration of Women in Computing 2021
   - "Thinking About Grad School" (Panelist)
   - "Male Allies - Birds of a Feather Breakout Session" (Moderator)
+  - "Challenges and Opportunities in Integrating Critical Voices in AI Ethics" (Presenter)
+
 - Philosopher's Web Cafe, 2020: Observer-Dependent Models (Moderator)
 - University at Albany, Prospective Student Open House (Informatics Representative, 2017-2019)
 
