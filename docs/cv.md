@@ -9,10 +9,11 @@ title: "Curriculum Vitae"
 
 ---
 
-Latest C.V. [April 2021]()
+## Full Curriculum Vitae
+PDF File: [April 2021]()
 
-*Selected Background*
-### Current Research Experience
+## Abridged Research Background
+### Current Research Positions
 - Orthogonal Research and Education Lab
   - Lab Manager (2020-)
   - Groups: Developmental AI, MetaBrains, Reperesentational Brains & Phenotypes
