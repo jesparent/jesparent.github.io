@@ -22,7 +22,7 @@ PDF File: [April 2021]()
   - DevoWorm Contributor
 
 ### Education
-- University at Albany, SUNY  (2019) - B.S. Informatics
+- University at Albany, SUNY  (2019) - B.S. Informatics, Custom Minor in Cognition Research
   - PI Dr George Berg: Informatics & Computer Science (2018-19)
   - PI Dr Analisa Scimemi: Neuroscience (2018-19)
   - PI JD David Turetsky: Cybersecurity (2017-19)
