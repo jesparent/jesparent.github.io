@@ -26,6 +26,6 @@ PDF File: [April 2021]()
 
 ##### Additional Training
 - [MITx Micromasters in Data and Statistics](https://micromasters.mit.edu/ds/) (2021-'22)
-- Google Certificate in Data Analytics (2021)
-- [MIT Center for Brains, Minds and Machines - Summer Course (2020)](https://cbmm.mit.edu/summer-school/2020/attendees)
-- [Neuromatch Academy (2020)](https://github.com/jesparent/Proposal-Materials/tree/master/Neuromatch)
+- [Google Certificate in Data Analytics](https://grow.google/dataanalytics/#?modal_active=none) (2021)
+- [MIT Center for Brains, Minds and Machines - Summer Course](https://cbmm.mit.edu/summer-school/2020/attendees)  (2020)
+- [Neuromatch Academy](https://github.com/jesparent/Proposal-Materials/tree/master/Neuromatch)  (2020)
