@@ -18,6 +18,7 @@ Jesse regularly writes and speaks on the process of falling in love with researc
 - Philosopher's Web Cafe (2020) 
   - Observer-Dependent Models, Moderator
 - University at Albany, SUNY
+  - Undergraduate Research Alumni Spotlight (2020)
   - Prospective Student Open House: Informatics Representative (2017-2019)
   - Undergraduate Research Spotlight (2017)
   - Albany Student Press: Interviewed for Science & Politics (2017)
