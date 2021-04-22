@@ -12,7 +12,7 @@ title: "Curriculum Vitae"
 ## Full Curriculum Vitae
 PDF File: [April 2021]()
 
-### Abridged Research Background: Current Positions
+### Current Research Positions
 - Orthogonal Research and Education Lab (2019-)
   - Lab Director Dr Bradly Alicea
     - OREL Lab Manager (2020-)
