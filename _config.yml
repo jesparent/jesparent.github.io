@@ -97,6 +97,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
@@ -110,6 +111,7 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
       sidebar:
         nav: "docs"      
@@ -119,6 +121,7 @@ defaults:
       type: docs
     values:
       layout: single
+      classes: wide
       read_time: false
       author_profile: true
       share: false
