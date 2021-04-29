@@ -6,6 +6,10 @@ sidebar:
   nav: "docs"
 permalink: /docs/cv/ 
 title: "Curriculum Vitae"
+.page__lead {
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+}
 
 ---
 
