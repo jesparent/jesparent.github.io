@@ -10,7 +10,7 @@ font-size: $type-size-6;
 
 ---
 
-## Full Curriculum Vitae
+## Full C.V.
 PDF File: [April 2021]()
 
 ### Current Research Positions
