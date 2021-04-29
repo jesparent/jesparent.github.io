@@ -6,8 +6,6 @@ sidebar:
   nav: "docs"
 permalink: /docs/cv/ 
 title: "Curriculum Vitae"
-font-size: type-size-6
-
 
 ---
 
