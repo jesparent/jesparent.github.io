@@ -10,7 +10,7 @@ title: "Curriculum Vitae"
 ---
 
 ## Full C.V.
-PDF File: [April 2021]()
+PDF File: [April 2021](https://docs.google.com/document/d/1cm_3PclaOJwk2GldMLwzUiysgAI3O1rzBrSRteGYypQ/edit?usp=sharing)
 
 ### Current Research Positions
 - Orthogonal Research and Education Lab (2019-)
