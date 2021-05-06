@@ -19,12 +19,13 @@ docs:
     children:
       - title: "C.V."
         url: /docs/cv/
+      - title: "Lab Links:"        
       - title: "Orthogonal Lab"
         url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
         url: https://cognitionfutures.github.io
       - title: "Publications"
-        url: /speaking/
+        url: https://scholar.google.com/citations?hl=en&user=tSvD5eAAAAAJ
       #- title: "Medium.com"
        # url: https://medium.com/@JesseParent
         
