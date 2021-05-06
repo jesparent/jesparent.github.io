@@ -11,6 +11,7 @@ sidebar:
 Assistant Scientist and Lab Manager at Orthogonal Research & Education Lab
 
 #### News
+- 05-01 Accepted at Cultural Evolution Society Conference 2021: "Charting the Future of Academic Fields with Cultural Evolutionary Trajectories"
 - 04-10 Research Presentation: Cognition Futures & FrontierMap at Princeton Envision
 - [04-09](https://twitter.com/JesParent/status/1379489919228379136) Research Presentation:  AI Ethics project with OREL at ACM's New York Celebration of Women in Computing 2021; Male Allies breakout session (Moderator), Thinking About Gradschool (Panelist)
 - [03-24](https://www.researchgate.net/publication/350357270_Frontier_Map_and_Cognition_Futures_Embodied_Intelligence_A_Survey_of_Computational_Models_of_Cognition) Presentation: flash talk at International Workshop on Embodied Intelligence; interviewed for IEEE's Embodied Intelligence podcast.
