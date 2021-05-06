@@ -19,7 +19,8 @@ docs:
     children:
       - title: "C.V."
         url: /docs/cv/
-      - title: "Lab Links:"        
+      - title: > "Lab Links:
+             "        
       - title: "Orthogonal Lab"
         url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
