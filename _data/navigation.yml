@@ -31,12 +31,12 @@ docs:
  
   - title: Groups and Openings
     children:
-      - title: "Orthogonal Lab Homepage"
-        url: https://orthogonal-research.weebly.com/
       - title: "Cognition Futures"
         url: https://cognitionfutures.github.io
       - title: "OREL Ethics Tech Society Team"
         url: /docs/ethics  
+      - title: "Orthogonal Research Lab Homepage"
+        url: https://orthogonal-research.weebly.com/    
       - title: "Research Opportunities"
         url: /docs/join    
 
