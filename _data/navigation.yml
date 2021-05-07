@@ -18,7 +18,7 @@ docs:
   - title: Research
     children:
       - title: "C.V."
-        url: /docs/cv/
+        url: /cv/
       - title: "Research Portfolio"
         url: https://www.researchgate.net/profile/Jesse_Parent2
       #- title: "Medium.com"
@@ -27,18 +27,18 @@ docs:
   - title: Professional
     children:
       - title: "Speaking & Consulting"
-        url: /docs/speaking/
+        url: /speaking/
  
   - title: Groups and Openings
     children:
       - title: "Cognition Futures"
         url: https://cognitionfutures.github.io
       - title: "OREL Ethics Tech Society Team"
-        url: /docs/ethics  
+        url: /ethics/  
       - title: "Orthogonal Research Lab Homepage"
         url: https://orthogonal-research.weebly.com/    
       - title: "Research Opportunities"
-        url: /docs/join    
+        url: /join/    
 
   - title: Links
     children:
