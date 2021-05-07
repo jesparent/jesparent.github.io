@@ -25,5 +25,5 @@ Topics of interest include: AI Ethics, AI Safety, law (particularly AI interpret
 - Valeria Schnake, University of Chile, School of Law (Chile)
 
 ## News
-- 2021-04 ACM's New York Celebration of Women in Computing: "Towards a Sufficient Unified Ethical Framework for AI Challenges & Opportunities (Integrating Critical Voices)
+- 2021-04 ACM's New York Celebration of Women in Computing: "Towards a Sufficient Unified Ethical Framework for AI Challenges & Opportunities (Integrating Critical Voices)"
 - 2019-04 ACM's New York Celebration of Women in Computing: ["Bias in Artificial Intelligence: Challenges + Opportunities in AI Ethics"](https://www.researchgate.net/publication/339784715_Bias_in_Artificial_Intelligence_Challenges_Opportunities_in_AI_Ethics)
