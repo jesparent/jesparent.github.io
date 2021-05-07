@@ -4,7 +4,7 @@ classes: wide
 author_profile: true
 sidebar:
   nav: "docs"
-permalink: /docs/speaking/ 
+permalink: /speaking/ 
 title: "Speaking and Consulting"
 
 ---
