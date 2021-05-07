@@ -4,7 +4,7 @@ classes: wide
 author_profile: true
 sidebar:
   nav: "docs"
-permalink: /docs/cv/ 
+permalink: /cv/ 
 title: "Curriculum Vitae"
 
 ---
