@@ -13,11 +13,12 @@ Founded officially in January 2021, the Ethics Team has its roots in cross-disci
 Topics of interest include: AI Ethics, AI Safety, law (particularly AI interpretability / explainability and legilation), shared risk, technology-education access, and neuroethics. 
 
 ## Team Members and Collaborators
-- Jesse Parent, Assistant Scientist, Orthogonal Research & Education Laboratory, (USA)
+- Jesse Parent B.S., Assistant Scientist, Orthogonal Research & Education Laboratory, (USA)
 - Krishna Katyal, Undergraduate Student, Shri Mata Vaishno Devi University, (Katra, Jammu and Kashmir)
 - Shruti Raj Vansh Singh, Undergraduate Student, Shri Mata Vaishno Devi University, (Katra, Jammu and Kashmir)
-- Erin Higgs, Undergraduate Student, University of Nevada-Reno, (USA)
-- Minh Tran, External Collaborator, Orthogonal Research & Education Laboratory, (USA) 
+- Erin Higgs B.S., University of Nevada-Reno, (USA)
+- Minh Tran B.S., External Collaborator, Orthogonal Research & Education Laboratory, (USA) 
+- Angela Risius M.A., Columbia University (USA)
 - Daniela Cialfi PhD, Post-Doc, University of Chieti-Pescara, (Italy)
 - Bradly Alicea PhD, Head Scientist, Orthogonal Research & Education Laboratory (USA)
 
