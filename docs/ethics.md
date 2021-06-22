@@ -27,7 +27,7 @@ Topics of interest include: AI Ethics, AI Safety, law (particularly AI interpret
 - Shruti Raj Vansh Singh, Undergraduate Student, Shri Mata Vaishno Devi University, (Katra, Jammu and Kashmir)
 - Erin Higgs B.S., University of Nevada-Reno, (USA)
 - Minh Tran B.S., External Collaborator, Orthogonal Research & Education Laboratory, (USA) 
-- Angela Risius M.A., Columbia University (USA)
+- Angela Risius M.S., Columbia University (USA)
 - Daniela Cialfi PhD, Post-Doc, University of Chieti-Pescara, (Italy)
 - Bradly Alicea PhD, Head Scientist, Orthogonal Research & Education Laboratory (USA)
 
