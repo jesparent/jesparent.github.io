@@ -13,7 +13,7 @@ sidebar:
 
 #### News 
 - 06-14 Double Acceptance at Neuromatch Academy 2021 (Computational Neuroscience and Deep Learning)
-- [06-01](https://www.stateoftheart.ai) Appointed Director of Strategic Initiatives at StateOfTheArt AI
+- [06-01](https://www.stateoftheart.ai) Joined StateOfTheArt AI as Director of Strategic Initiatives
 - 05-17 Awarded Research Grant via Effective Altruism Learning and Research (Artificial Intelligence)
 - [05-15](https://emergentinteraction.github.io/) ACM CHI 2021 Workshop on Emergent Interaction: "Allostasis Machines: a model for understanding internal states and technological environments"
 - 05-01 Accepted at Cultural Evolution Society Conference 2021: "Charting the Future of Academic Fields with Cultural Evolutionary Trajectories"
