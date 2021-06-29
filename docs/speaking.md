@@ -25,4 +25,4 @@ Jesse regularly writes and speaks on the process of falling in love with researc
 
 #### Podcasts
 - IEEE Soft Robotics Podcast: International Workshop on Embodied Intelligence, Offline Interviews
-- Neuroethics Today: 2 Minute Neuroethics (Podcast Segment) 
+- Neuroethics Today: 2 Minute Neuroethics
