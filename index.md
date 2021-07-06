@@ -8,8 +8,9 @@ sidebar:
 ---
 
 **Jesse Parent**
-- Director, Strategic Initiatives @ StateOfTheArt AI
+- Strategic Initiatives @ StateOfTheArt AI
 - Assistant Scientist and Lab Manager @ Orthogonal Research & Education Lab
+- Research Associate & Information Architect @ Biotech & Medtech Lab
 
 #### News 
 - 06-14 Double Acceptance at Neuromatch Academy 2021 (Computational Neuroscience and Deep Learning)
